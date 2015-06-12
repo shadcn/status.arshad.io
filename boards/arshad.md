@@ -19,7 +19,7 @@ picture: https://avatars0.githubusercontent.com/u/124599?v=3&s=460
 
 # Current projects
 
-* [Pinterest] Search landing page
-* [Hogue] Development/Theming
-* [Huddle] Development/Theming
-* [STLC] Support
+* [Pinterest] Search landing page with @stephanie
+* [Hogue] Development/Theming with @aimee
+* [Huddle] Development/Theming with @aimee
+* [STLC] Support with @aimee
