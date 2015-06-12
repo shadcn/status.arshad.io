@@ -1,0 +1,20 @@
+// Colors
+//------------------------------------------------------------------------------
+$body-bg-color: #ecf0f1;
+$text-color: #111;
+$label-text-color: #fff;
+$label-bg-color: #2c3e50;
+
+// Board colors.
+$board-colors: (
+  "default":      #34495e,
+  "in-progress":  #27ae60,
+  "pipeline":     #3498db,
+);
+
+// Label colors.
+$label-colors: (
+  "default":      #2c3e50,
+  "project-a":    #8e44ad,
+  "project-b":    #e74c3c,
+);

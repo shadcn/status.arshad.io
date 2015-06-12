@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{ title }} | {{ description }}</title>
+    <link rel="stylesheet" href="./assets/stylesheets/style.css">
+</head>
+<body>
+    <div class="crepido">
+        {% for board in boards %}
+            <div class="board">
+                <div class="board__header">
+                    <a href="#" class="board__picture">
+                        <img src="{{ board.attributes.picture }}" />
+                    </a>
+                    <h3 class="board__name">{{ board.attributes.name }}</h3>
+                </div>
+                {{ board.body|safe }}
+            </div>
+        {% endfor %}
+    </div>
+
+    <footer>
+        {{ footer|safe }}
+    </footer>
+
+    <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="./assets/javascripts/script.min.js"></script>
+</body>
+</html>

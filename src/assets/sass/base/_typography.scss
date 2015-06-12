@@ -1,0 +1,15 @@
+// Typography
+//------------------------------------------------------------------------------
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+body {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-weight: 500;
+}

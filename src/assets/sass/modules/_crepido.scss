@@ -1,0 +1,82 @@
+// Crepido
+//------------------------------------------------------------------------------
+.crepido {
+  display: table;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.board {
+  width: 325px;
+  float: left;
+}
+.board + .board {
+  margin-left: 50px;
+}
+
+.board__header {
+  text-align: center;
+  .board__picture {
+    display: inline-block;
+    margin: 0 auto 5px;
+    width: 65px;
+    height: 65px;
+    overflow: hidden;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .board__name {
+    margin: 0 0 20px;
+  }
+}
+
+.board__card {
+  margin: 0 0 20px;
+  background-color: map-get($board-colors, "default");
+  overflow: hidden;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  > h1 {
+    margin: 0;
+    font-size: 0.85em;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    color: white;
+  }
+  > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none outside none;
+    li {
+      position: relative;
+      display: block;
+      padding: 10px 15px;
+      margin-bottom: -1px;
+      background-color: #fff;
+      border: 1px solid #eee;
+      border-width: 1px 0;
+    }
+  }
+}
+
+// Board colors.
+// -----------------------------------------------------------------------------
+@each $name, $color in $board-colors {
+  .board__card--#{$name} {
+    background-color: $color;
+  }
+}
+
+// Label colors.
+// -----------------------------------------------------------------------------
+@each $name, $color in $label-colors {
+  .label--#{$name} {
+    background-color: $color;
+  }
+}

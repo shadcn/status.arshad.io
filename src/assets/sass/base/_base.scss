@@ -1,0 +1,27 @@
+// Base
+//------------------------------------------------------------------------------
+body {
+  background-color: $body-bg-color;
+  color: $text-color;
+}
+
+a {
+  color: $text-color;
+  &:hover, &:focus {
+    color: lighten($text-color, 30);
+  }
+}
+
+.label {
+  padding: .2em .6em .3em;
+  margin-right: 0.6em;
+  font-size: 75%;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  color: $label-text-color;
+  background-color: $label-bg-color;
+  border-radius: .25em;
+  -moz-border-radius: .25em;
+  -webkit-border-radius: .25em;
+}
