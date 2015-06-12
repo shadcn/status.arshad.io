@@ -20,6 +20,8 @@ a {
   text-align: center;
   white-space: nowrap;
   color: $label-text-color;
+  width: 45px;
+  display: inline-block;
   background-color: $label-bg-color;
   border-radius: .25em;
   -moz-border-radius: .25em;

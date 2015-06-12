@@ -1,9 +1,9 @@
 {
-  "title" : "Arshad",
-  "description": "What is Arshad working on?",
+  "title" : "What is Arshad working on?",
+  "description": "",
   "picture" : "http://placehold.it/65x65",
   "remoteUrl": "git@github.com:arshad/status.arshad.io",
   "origin" : "origin",
   "branch" : "master",
-  "footer": "What is Arshad working on?"
+  "footer": ""
 }

@@ -90,7 +90,7 @@ gulp.task('watch', function () {
 });
 
 // Gulp 'deploy' task
-gulp.task('deploy', function() {
+gulp.task('deploy', ['build'], function() {
   return gulp.src('./public/**/*')
     .pipe(pages({
       remoteUrl: crepido.remoteUrl,
