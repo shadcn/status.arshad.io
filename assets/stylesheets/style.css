@@ -338,6 +338,8 @@ a {
   text-align: center;
   white-space: nowrap;
   color: #fff;
+  width: 45px;
+  display: inline-block;
   background-color: #2c3e50;
   border-radius: .25em;
   -moz-border-radius: .25em;
@@ -345,7 +347,7 @@ a {
 
 body {
   font-family: 'Open Sans', Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 22px; }
 
 h1, h2, h3, h4, h5 {
@@ -420,14 +422,20 @@ footer {
 .board__card--in-progress {
   background-color: #27ae60; }
 
-.board__card--pipeline {
+.board__card--dates {
   background-color: #3498db; }
 
 .label--default {
   background-color: #2c3e50; }
 
-.label--project-a {
-  background-color: #8e44ad; }
+.label--stlc {
+  background-color: #574085; }
 
-.label--project-b {
-  background-color: #e74c3c; }
+.label--pinterest {
+  background-color: #920c12; }
+
+.label--huddle {
+  background-color: #008CCC; }
+
+.label--hogue {
+  background-color: #222222; }
