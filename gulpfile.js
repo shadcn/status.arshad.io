@@ -72,6 +72,11 @@ gulp.task('js', function(){
 // Gulp 'assets' task
 gulp.task('assets', ['sass', 'js']);
 
+gulp.task('static', function () {
+  return gulp.src(['src/*.*'])
+    .pipe(gulp.dest('public'));
+});
+
 // Gulp 'webserver' task: setups the webserver and enable livereload.
 gulp.task('webserver', function() {
   gulp.src('public')
