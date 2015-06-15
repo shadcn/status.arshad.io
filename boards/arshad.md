@@ -5,14 +5,13 @@ picture: https://avatars0.githubusercontent.com/u/124599?v=3&s=460
 
 # Currently working on
 
-* [Hogue] [1/8] Fix two tickets on TW
+* [Hogue] Fixing tickets on TW
 
 # Today's tasks
 
-* [Hogue] [1/8] Preparing Hogue launch
-* [Hogue] [1/8] Launch Hoguesf.com
+* [Hogue] [2/8] Launch Hoguesf.com
 * [Pinterest] [2/8] Upload compressed videos on dev
-* [STLC] [2/8] Sharespace tickets
+* [STLC] [1/8] Sharespace tickets
 * [Huddle] [3/8] Theming and Development
 
 # Important Dates
