@@ -14,16 +14,40 @@ a {
 
 .label {
   padding: .2em .6em .3em;
-  margin-right: 0.6em;
-  font-size: 75%;
   line-height: 1;
-  text-align: center;
+  text-align: left;
   white-space: nowrap;
   color: $label-text-color;
-  width: 45px;
+  width: 70px;
   display: inline-block;
   background-color: $label-bg-color;
+  vertical-align: middle;
   border-radius: .25em;
   -moz-border-radius: .25em;
   -webkit-border-radius: .25em;
+  &:before {
+    margin-right: 5px;
+  }
+}
+
+.timer {
+  padding: .2em .6em .3em;
+  background-color: #008000;
+  color: white;
+  font-size: 75%;
+  vertical-align: middle;
+  border-radius: .25em;
+  -moz-border-radius: .25em;
+  -webkit-border-radius: .25em;
+  &:before {
+    margin-right: 5px;
+  }
+}
+
+.progress {
+  margin: 0;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  box-shadow: none;
 }

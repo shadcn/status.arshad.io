@@ -3,16 +3,16 @@ name: What is Arshad working on?
 picture: https://avatars0.githubusercontent.com/u/124599?v=3&s=460
 ---
 
-# In Progress
+# Currently working on
 
-* [STLC] Fixing STLC sharespace tickets
+* [STLC] [1/8] Fixing STLC sharespace tickets 
 
-# Later today
+# Other tasks for today
 
-* [Pinterest] Upload compressed videos on dev
-* [Huddle] Start Huddle development
+* [Pinterest] [2/8] Upload compressed videos on dev
+* [Huddle] [3/8] Start Huddle development
 
-# Dates
+# Important Dates
 
 * [Hogue] I have Hogue launch on Monday
 * [Huddle] Send progress update on Friday

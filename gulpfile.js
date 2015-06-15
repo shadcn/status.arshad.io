@@ -35,6 +35,9 @@ markedRenderer.heading = function(text, level) {
 markedRenderer.list = function(body, ordered) {
   var type = ordered ? 'ol' : 'ul';
 
+  // Create timers
+  body = addTimers(body);
+
   // Create labels.
   body = labelize(body);
 
@@ -138,10 +141,17 @@ function buildBoards() {
   return crepido;
 }
 
+// Converts [1/8] to timers
+function addTimers(string) {
+  return string.replace(new RegExp("\\[([0-9])\/([0-9])\\]", "gi"), function($0, $1, $2) {
+    return '<span class="timer fa fa-clock-o" data-value="' + $1 + '" data-total="' + $2 + '">' + $1 + '/' + $2 + '</span>';
+  });
+}
+
 // Converts [string] to <span class="label">string</span>.
 function labelize(string) {
-  return string.replace(new RegExp("\\[(.*)\\]", "gi"), function($0, $1) {
+  return string.replace(new RegExp("\\[([^\\]]*)\\]", "gi"), function($0, $1) {
     var name = $1.toLowerCase().replace(/[^\w]+/g, '-');
-    return '<span class="label label--' + name + '">' + $1 + '</span>';
+    return '<span class="project label fa fa-folder label--' + name + '" data-name="' + name + '" data-project="' + $1 + '">' + $1 + '</span>';
   });
 }

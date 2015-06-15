@@ -7,9 +7,11 @@ $label-bg-color: #2c3e50;
 
 // Board colors.
 $board-colors: (
-  "default":      #34495e,
-  "in-progress":  #27ae60,
-  "dates":     #3498db,
+  "default":                  #34495e,
+  "progress":                 #2c3e50,
+  "currently-working-on":     #27ae60,
+  "important-dates":          #920c12,
+  "other-tasks-for-today":    #008CCC,
 );
 
 // Label colors.

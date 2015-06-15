@@ -15,4 +15,22 @@
       return parseInt(boards.length * width) + parseInt((boards.length - 1) * gutter);
     });
   }
+
+  // Add tooltip.
+  $('[data-toggle="tooltip"]').tooltip();
+
+  // Build progress bar.
+  $('.board').each(function() {
+    var progressBar = $(this).find('.progress');
+    $(this).find('.timer').each(function() {
+      var value = $(this).data().value;
+      var projectData = $(this).parent('li').find('.project').data();
+      var progress = $('<div class="progress-bar" data-placement="top" data-toggle="tooltip" data-title="' + projectData.project + '"></div>');
+      progress.html(value + 'h');
+      progress.addClass('progress-bar--' + projectData.name);
+      progress.width((value/8 * 100) + '%');
+      progressBar.append(progress);
+    });
+    $('[data-toggle="tooltip"]').tooltip();
+  });
 })(jQuery)
