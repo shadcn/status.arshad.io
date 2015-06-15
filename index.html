@@ -3,8 +3,10 @@
 <head>
     <meta charset="utf-8">
     <title>What is Arshad working on? | </title>
-    <link rel="stylesheet" href="./assets/stylesheets/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/stylesheets/style.css">
 </head>
 <body>
     <div class="crepido">
@@ -16,22 +18,25 @@
                     </a>
                     <h3 class="board__name">What is Arshad working on?</h3>
                 </div>
-                <div class="board__card board__card--in-progress"><h1>In Progress</h1><ul>
-<li><span class="label label--stlc">STLC</span> Fixing STLC sharespace tickets</li>
+                <div class="board__card board__card--progress"><h1>What does my day look like?</h1><ul>
+                  <li><div class="progress"></div></li>
+                </ul></div>
+                <div class="board__card board__card--currently-working-on"><h1>Currently working on</h1><ul>
+<li><span class="project label fa fa-folder label--stlc" data-name="stlc" data-project="STLC">STLC</span> <span class="timer fa fa-clock-o" data-value="1" data-total="8">1/8</span> Fixing STLC sharespace tickets </li>
 </ul></div>
-<div class="board__card board__card--later-today"><h1>Later today</h1><ul>
-<li><span class="label label--pinterest">Pinterest</span> Upload compressed videos on dev</li>
-<li><span class="label label--huddle">Huddle</span> Start Huddle development</li>
+<div class="board__card board__card--other-tasks-for-today"><h1>Other tasks for today</h1><ul>
+<li><span class="project label fa fa-folder label--pinterest" data-name="pinterest" data-project="Pinterest">Pinterest</span> <span class="timer fa fa-clock-o" data-value="2" data-total="8">2/8</span> Upload compressed videos on dev</li>
+<li><span class="project label fa fa-folder label--huddle" data-name="huddle" data-project="Huddle">Huddle</span> <span class="timer fa fa-clock-o" data-value="3" data-total="8">3/8</span> Start Huddle development</li>
 </ul></div>
-<div class="board__card board__card--dates"><h1>Dates</h1><ul>
-<li><span class="label label--hogue">Hogue</span> I have Hogue launch on Monday</li>
-<li><span class="label label--huddle">Huddle</span> Send progress update on Friday</li>
+<div class="board__card board__card--important-dates"><h1>Important Dates</h1><ul>
+<li><span class="project label fa fa-folder label--hogue" data-name="hogue" data-project="Hogue">Hogue</span> I have Hogue launch on Monday</li>
+<li><span class="project label fa fa-folder label--huddle" data-name="huddle" data-project="Huddle">Huddle</span> Send progress update on Friday</li>
 </ul></div>
 <div class="board__card board__card--current-projects"><h1>Current projects</h1><ul>
-<li><span class="label label--pinterest">Pinterest</span> Search landing page with @stephanie</li>
-<li><span class="label label--hogue">Hogue</span> Development/Theming with @aimee</li>
-<li><span class="label label--huddle">Huddle</span> Development/Theming with @aimee</li>
-<li><span class="label label--stlc">STLC</span> Support with @aimee</li>
+<li><span class="project label fa fa-folder label--pinterest" data-name="pinterest" data-project="Pinterest">Pinterest</span> Search landing page with @stephanie</li>
+<li><span class="project label fa fa-folder label--hogue" data-name="hogue" data-project="Hogue">Hogue</span> Development/Theming with @aimee</li>
+<li><span class="project label fa fa-folder label--huddle" data-name="huddle" data-project="Huddle">Huddle</span> Development/Theming with @aimee</li>
+<li><span class="project label fa fa-folder label--stlc" data-name="stlc" data-project="STLC">STLC</span> Support with @aimee</li>
 </ul></div>
 
             </div>
@@ -43,6 +48,7 @@
     </footer>
 
     <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="./assets/javascripts/script.min.js"></script>
 </body>
 </html>

@@ -332,18 +332,38 @@ a {
 
 .label {
   padding: .2em .6em .3em;
-  margin-right: 0.6em;
-  font-size: 75%;
   line-height: 1;
-  text-align: center;
+  text-align: left;
   white-space: nowrap;
   color: #fff;
-  width: 45px;
+  width: 70px;
   display: inline-block;
   background-color: #2c3e50;
+  vertical-align: middle;
   border-radius: .25em;
   -moz-border-radius: .25em;
   -webkit-border-radius: .25em; }
+  .label:before {
+    margin-right: 5px; }
+
+.timer {
+  padding: .2em .6em .3em;
+  background-color: #008000;
+  color: white;
+  font-size: 75%;
+  vertical-align: middle;
+  border-radius: .25em;
+  -moz-border-radius: .25em;
+  -webkit-border-radius: .25em; }
+  .timer:before {
+    margin-right: 5px; }
+
+.progress {
+  margin: 0;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  box-shadow: none; }
 
 body {
   font-family: 'Open Sans', Helvetica, sans-serif;
@@ -367,7 +387,7 @@ footer {
   padding: 20px; }
 
 .board {
-  width: 325px;
+  min-width: 325px;
   float: left; }
 
 .board + .board {
@@ -419,23 +439,44 @@ footer {
 .board__card--default {
   background-color: #34495e; }
 
-.board__card--in-progress {
+.board__card--progress {
+  background-color: #2c3e50; }
+
+.board__card--currently-working-on {
   background-color: #27ae60; }
 
-.board__card--dates {
-  background-color: #3498db; }
+.board__card--important-dates {
+  background-color: #920c12; }
+
+.board__card--other-tasks-for-today {
+  background-color: #008CCC; }
 
 .label--default {
+  background-color: #2c3e50; }
+
+.progress-bar--default {
   background-color: #2c3e50; }
 
 .label--stlc {
   background-color: #574085; }
 
+.progress-bar--stlc {
+  background-color: #574085; }
+
 .label--pinterest {
+  background-color: #920c12; }
+
+.progress-bar--pinterest {
   background-color: #920c12; }
 
 .label--huddle {
   background-color: #008CCC; }
 
+.progress-bar--huddle {
+  background-color: #008CCC; }
+
 .label--hogue {
+  background-color: #222222; }
+
+.progress-bar--hogue {
   background-color: #222222; }
