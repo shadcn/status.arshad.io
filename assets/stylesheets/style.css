@@ -422,7 +422,10 @@ footer {
 .board__card--in-progress {
   background-color: #27ae60; }
 
-.board__card--dates {
+.board__card--important-dates {
+  background-color: #F42020; }
+
+.board__card--current-projects {
   background-color: #3498db; }
 
 .label--default {
