@@ -5,7 +5,7 @@ picture: https://avatars0.githubusercontent.com/u/124599?v=3&s=460
 
 # Currently working on
 
-* [STLC] [1/8] Fixing STLC sharespace tickets 
+* [STLC] [2/8] Fixing STLC sharespace tickets 
 
 # Other tasks for today
 
