@@ -18,7 +18,7 @@
 
   // Task status.
   $('.status').each(function() {
-    if ($(this).val()) {
+    if ($(this).val() == 1) {
       $(this).parent('li').addClass('done');
     }
   });
