@@ -5,14 +5,13 @@ picture: https://avatars0.githubusercontent.com/u/124599?v=3&s=460
 
 # Currently working on
 
-* [Hogue] Prepare Hoguesf.com launch
+* Dinner
 
 # Today's tasks
 
 * [Hogue] [2h] Launch Hoguesf.com
-* [Pinterest] [2h] Upload compressed videos on dev
-* [STLC] [1h] Sharespace tickets
 * [Huddle] [3h] Theming and Development
+* [STLC] [1h] Sharespace tickets
 * [x] [Hogue] Fixing tickets on Teamwork
 
 # Important Dates
@@ -22,7 +21,7 @@ picture: https://avatars0.githubusercontent.com/u/124599?v=3&s=460
 
 # Current projects
 
-* [Pinterest] Search landing page with @stephanie
 * [Hogue] Development/Theming with @aimee
 * [Huddle] Development/Theming with @aimee
 * [STLC] Support with @aimee
+* [x] [Pinterest] Search landing page with @stephanie
