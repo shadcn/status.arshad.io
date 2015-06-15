@@ -74,7 +74,7 @@ gulp.task('assets', ['sass', 'js']);
 
 // Gulp 'static' task
 gulp.task('static', function () {
-  return gulp.src(['src/*.*'])
+  return gulp.src(['src/*.*'], { dot: true })
     .pipe(gulp.dest('public'));
 });
 
