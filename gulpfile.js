@@ -97,7 +97,7 @@ gulp.task('watch', function () {
 
 // Gulp 'deploy' task
 gulp.task('deploy', ['build', 'assets', 'static'], function() {
-  return gulp.src('./public/**/*')
+  return gulp.src('./public/**/*', { dot: true })
     .pipe(pages({
       remoteUrl: crepido.remoteUrl,
       origin: crepido.origin,
