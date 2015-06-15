@@ -435,6 +435,11 @@ footer {
       background-color: #fff;
       border: 1px solid #eee;
       border-width: 1px 0; }
+      .board__card > ul li.done {
+        text-decoration: line-through;
+        color: #999; }
+        .board__card > ul li.done span {
+          opacity: 0.5; }
 
 .board__card--default {
   background-color: #34495e; }
@@ -449,6 +454,9 @@ footer {
   background-color: #920c12; }
 
 .board__card--other-tasks-for-today {
+  background-color: #008CCC; }
+
+.board__card--today-39-s-tasks {
   background-color: #008CCC; }
 
 .label--default {
