@@ -9,10 +9,10 @@ picture: https://avatars0.githubusercontent.com/u/124599?v=3&s=460
 
 # Today's tasks
 
-* [Hogue] [2/8] Launch Hoguesf.com
-* [Pinterest] [2/8] Upload compressed videos on dev
-* [STLC] [1/8] Sharespace tickets
-* [Huddle] [3/8] Theming and Development
+* [Hogue] [2h] Launch Hoguesf.com
+* [Pinterest] [2h] Upload compressed videos on dev
+* [STLC] [1h] Sharespace tickets
+* [Huddle] [3h] Theming and Development
 
 # Important Dates
 
