@@ -16,21 +16,47 @@
     });
   }
 
+  // Task status.
+  $('.status').each(function() {
+    if ($(this).val()) {
+      $(this).parent('li').addClass('done');
+    }
+  });
+
   // Add tooltip.
   $('[data-toggle="tooltip"]').tooltip();
 
   // Build progress bar.
   $('.board').each(function() {
-    var progressBar = $(this).find('.progress');
+    // Build projects array.
+    var projects = [];
+    var total = 0;
     $(this).find('.timer').each(function() {
       var value = $(this).data().value;
-      var projectData = $(this).parent('li').find('.project').data();
-      var progress = $('<div class="progress-bar" data-placement="top" data-toggle="tooltip" data-title="' + projectData.project + '"></div>');
-      progress.html(value + 'h');
-      progress.addClass('progress-bar--' + projectData.name);
-      progress.width((value/8 * 100) + '%');
-      progressBar.append(progress);
+      total += value;
+      var project = $(this).parent('li').find('.project').data();
+      if (typeof(projects[project.name]) !== 'undefined') {
+        projects[project.name].value += value;
+      }
+      else {
+        projects[project.name] = {
+          project: project,
+          value: value
+        };
+      }
     });
+
+    // Build progress bar.
+    var progressBar = $(this).find('.progress');
+    for (var projectName in projects) {
+      var project = projects[projectName];
+      var progress = $('<div class="progress-bar" data-placement="top" data-toggle="tooltip" data-title="' + project.project.name + '"></div>');
+      progress.html(project.value + 'h');
+      progress.addClass('progress-bar--' + project.project.name);
+      progress.width((project.value/total * 100) + '%');
+      progressBar.append(progress);
+    }
+
     $('[data-toggle="tooltip"]').tooltip();
   });
 })(jQuery)

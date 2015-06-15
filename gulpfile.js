@@ -35,6 +35,9 @@ markedRenderer.heading = function(text, level) {
 markedRenderer.list = function(body, ordered) {
   var type = ordered ? 'ol' : 'ul';
 
+  // Add Checkboxes
+  body = addCheckboxes(body);
+
   // Create timers
   body = addTimers(body);
 
@@ -141,7 +144,15 @@ function buildBoards() {
   return crepido;
 }
 
-// Converts [1/8] to timers
+// Convert [ ] and [x] to checkboxes.
+function addCheckboxes(string) {
+  return string.replace(new RegExp("\\[([\\s|x])\\]", "gi"), function($0, $1) {
+    var value = ($1 == 'x') ? 1 : 0;
+    return '<input class="status hidden" type="checkbox" value="' + value + '"/>';
+  });
+}
+
+// Converts [1/8] to timers.
 function addTimers(string) {
   return string.replace(new RegExp("\\[([0-9])\/([0-9])\\]", "gi"), function($0, $1, $2) {
     return '<span class="timer fa fa-clock-o" data-value="' + $1 + '" data-total="' + $2 + '">' + $1 + '/' + $2 + '</span>';
