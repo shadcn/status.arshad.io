@@ -155,7 +155,7 @@ function addCheckboxes(string) {
 // Converts [1/8] to timers.
 function addTimers(string) {
   return string.replace(new RegExp("\\[([0-9](.[0-9])?)h\\]", "gi"), function($0, $1) {
-    return '<span class="timer fa fa-clock-o" data-value="' + $1 + '">' + $1 + 'h</span>';
+    return '<span class="timer" data-value="' + $1 + '"><i class="fa fa-clock-o"></i>' + $1 + 'h</span>';
   });
 }
 
@@ -163,6 +163,6 @@ function addTimers(string) {
 function labelize(string) {
   return string.replace(new RegExp("\\[([^\\]]*)\\]", "gi"), function($0, $1) {
     var name = $1.toLowerCase().replace(/[^\w]+/g, '-');
-    return '<span class="project label fa fa-folder label--' + name + '" data-name="' + name + '" data-project="' + $1 + '">' + $1 + '</span>';
+    return '<span class="project label label--' + name + '" data-name="' + name + '" data-project="' + $1 + '"><i class="fa fa-folder-o"></i>' + $1 + '</span>';
   });
 }

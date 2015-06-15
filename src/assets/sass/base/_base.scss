@@ -14,20 +14,22 @@ a {
 
 .label {
   padding: .2em .6em .3em;
-  line-height: 1;
   text-align: left;
   white-space: nowrap;
   color: $label-text-color;
   width: 70px;
+  line-height: 140%;
   display: inline-block;
+  font-weight: normal;
   background-color: $label-bg-color;
   vertical-align: middle;
   border-radius: .25em;
   -moz-border-radius: .25em;
   -webkit-border-radius: .25em;
-  &:before {
-    margin-right: 5px;
-  }
+}
+
+.fa {
+  margin-right: 3px;
 }
 
 .timer {
