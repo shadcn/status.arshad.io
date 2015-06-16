@@ -9,10 +9,12 @@ picture: https://avatars0.githubusercontent.com/u/124599?v=3&s=460
 
 # Today's tasks
 
-* [Huddle] [3h] Theming and Development
-* [STLC] [1h] Sharespace tickets
+* [Huddle] [6h] Theming and Development
 * [Hogue] [2h] Launch Hoguesf.com
-* [x] [Hogue] Fixing tickets on Teamwork
+
+# Other tasks
+
+* [STLC] [1h] Sharespace tickets
 
 # [-] Important Dates
 
