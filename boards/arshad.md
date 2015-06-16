@@ -5,13 +5,13 @@ picture: https://avatars0.githubusercontent.com/u/124599?v=3&s=460
 
 # Currently working on
 
-* [Hogue] Fixing tickets on Teamwork
+* [Huddle] Theming and Development
 
 # Today's tasks
 
-* [Hogue] [2h] Launch Hoguesf.com
 * [Huddle] [3h] Theming and Development
 * [STLC] [1h] Sharespace tickets
+* [Hogue] [2h] Launch Hoguesf.com
 * [x] [Hogue] Fixing tickets on Teamwork
 
 # Important Dates
