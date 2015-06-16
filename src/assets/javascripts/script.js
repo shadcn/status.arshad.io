@@ -31,7 +31,7 @@
     // Build projects array.
     var projects = [];
     var total = 0;
-    $(this).find('.timer').each(function() {
+    $(this).find('.board__card').eq(2).find('.timer').each(function() {
       var value = $(this).data().value;
       total += value;
       var project = $(this).parent('li').find('.project').data();
