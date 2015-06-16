@@ -442,6 +442,18 @@ footer {
         color: #999; }
         .board__card > ul li.done span {
           opacity: 0.5; }
+  .board__card.board__card--collapsible h1 {
+    cursor: pointer; }
+    .board__card.board__card--collapsible h1:after {
+      content: "\f067";
+      font: normal normal normal 14px/1 FontAwesome;
+      float: right; }
+  .board__card.board__card--collapsible ul {
+    height: 0; }
+  .board__card.board__card--collapsible.open h1:after {
+    content: "\f068"; }
+  .board__card.board__card--collapsible.open ul {
+    height: auto; }
 
 .board__card--default {
   background-color: #34495e; }
