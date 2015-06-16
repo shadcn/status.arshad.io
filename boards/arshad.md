@@ -16,7 +16,7 @@ picture: https://avatars0.githubusercontent.com/u/124599?v=3&s=460
 
 # Important Dates
 
-* [Hogue] I have Hogue launch on Monday
+* [Hogue] Hogue launch on Tuesday Jun 16
 * [Huddle] Send progress update on Friday
 
 # Current projects
