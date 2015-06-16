@@ -59,4 +59,10 @@
 
     $('[data-toggle="tooltip"]').tooltip();
   });
+
+  // Collapsible boards
+  $('.board__card--collapsible h1').click(function(e) {
+    e.preventDefault();
+    $(this).parent('.board__card--collapsible').toggleClass('open');
+  });
 })(jQuery)

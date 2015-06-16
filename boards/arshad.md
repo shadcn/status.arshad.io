@@ -14,12 +14,12 @@ picture: https://avatars0.githubusercontent.com/u/124599?v=3&s=460
 * [Hogue] [2h] Launch Hoguesf.com
 * [x] [Hogue] Fixing tickets on Teamwork
 
-# Important Dates
+# [-] Important Dates
 
 * [Hogue] Hogue launch on Tuesday Jun 16
 * [Huddle] Send progress update on Friday
 
-# Current projects
+# [-] Current projects
 
 * [Hogue] Development/Theming with @aimee
 * [Huddle] Development/Theming with @aimee

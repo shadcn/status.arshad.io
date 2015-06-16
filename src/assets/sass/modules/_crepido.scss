@@ -71,6 +71,30 @@
       }
     }
   }
+
+
+  &.board__card--collapsible {
+    h1 {
+      cursor: pointer;
+      &:after {
+        content: "\f067";
+        font: normal normal normal 14px/1 FontAwesome;
+        float: right;
+      }
+    }
+    ul {
+      height: 0;
+    }
+
+    &.open {
+      h1:after {
+        content: "\f068";
+      }
+      ul {
+        height: auto;
+      }
+    }
+  }
 }
 
 // Timers

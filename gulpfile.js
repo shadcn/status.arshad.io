@@ -25,9 +25,21 @@ markedRenderer.heading = function(text, level) {
   var prefix = '<h' + level + '>';
   // Wrap in a div if h1
   if (level == 1) {
+    var cssClasses = ['board__card'];
+
+    // Add collapsible helpers.
+    if (text.match("\\[(\\-)\\]", "gi")) {
+      cssClasses.push('board__card--collapsible');
+      text = text.replace(/\[\-\]\s?/gi, "");
+    }
+
+    // Add a custom board name.
     var name = text.toLowerCase().replace(/[^\w]+/g, '-');
-    prefix = '<div class="board__card board__card--' + name + '">' + prefix;
+    cssClasses.push('board__card--' + name);
+
+    prefix = '<div class="' + cssClasses.join(" ") + '">' + prefix;
   }
+
   return prefix + text + '</h' + level + '>';
 }
 
