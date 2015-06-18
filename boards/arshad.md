@@ -5,11 +5,12 @@ picture: https://avatars0.githubusercontent.com/u/124599?v=3&s=460
 
 # Currently working on
 
-* [Huddle] Preparing dev for update
+* AFK
 
 # Today's tasks
 
-* [Huddle] [8h] Theming and Development
+* [x] [Huddle] Send development update email
+* [x] [Huddle] [8h] Theming and Development
 
 # Other tasks
 
