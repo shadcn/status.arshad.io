@@ -14,7 +14,8 @@ picture: https://avatars0.githubusercontent.com/u/124599?v=3&s=460
 # Other tasks
 
 * [STLC] [1h] Sharespace tickets
-* [Hogue] [2h] Launch Hoguesf.com
+* [Hogue] Support Tickets
+* [x] [Hogue] [2h] Launch Hoguesf.com
 
 # [-] Important Dates
 
@@ -23,7 +24,7 @@ picture: https://avatars0.githubusercontent.com/u/124599?v=3&s=460
 
 # [-] Current projects
 
-* [Hogue] Development/Theming with @aimee
 * [Huddle] Development/Theming with @aimee
+* [Hogue] Support with @aimee
 * [STLC] Support with @aimee
 * [x] [Pinterest] Search landing page with @stephanie
