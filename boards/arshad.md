@@ -5,22 +5,20 @@ picture: https://avatars0.githubusercontent.com/u/124599?v=3&s=460
 
 # Currently working on
 
-* [Huddle] Pricing page
+* [Huddle] Design QA
 
 # Today's tasks
 
-* [Huddle] [8h] Theming and Development
+* [Huddle] [8h] Design QA and bug fixes
 
 # Other tasks
 
 * [STLC] [1h] Sharespace tickets
 * [Hogue] Support Tickets
-* [x] [Hogue] [2h] Launch Hoguesf.com
 
 # [-] Important Dates
 
-* [Hogue] Hogue launch on Tuesday Jun 16
-* [Huddle] Send progress update on Friday
+* [Huddle] Launch July 1?
 
 # [-] Current projects
 
