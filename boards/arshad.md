@@ -9,14 +9,19 @@ picture: https://avatars0.githubusercontent.com/u/124599?v=3&s=460
 
 # Today's tasks
 
-* [Huddle] Tickets
-* [Smart Cities] Tickets
+* [Huddle] [5h] Tickets
+* [SCC] [3h] Tickets
 
 # Other tasks
 
-* [Prologis] Planning
+* [Prologis] Planning 
+
+# [-] Important dates
+
+* [Prologis] Kick off dev July 13
 
 # [-] Current projects
 
-* [Huddle] Support
-* [Prologis] with @andrea.
+* [SCC] Support with @andrea.
+* [Huddle] Support with @stephanie
+* [Prologis] Development with @andrea.
