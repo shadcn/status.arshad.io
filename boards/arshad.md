@@ -9,8 +9,8 @@ picture: https://avatars0.githubusercontent.com/u/124599?v=3&s=460
 
 # Today's tasks
 
-* [ ] [Prologis] [4h] Development
 * [ ] [Pinterest] [4h] Support tickets
+* [ ] [Prologis] [4h] Development
 
 # [-] Current projects
 
