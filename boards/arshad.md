@@ -9,7 +9,7 @@ picture: https://avatars0.githubusercontent.com/u/124599?v=3&s=460
 
 # Today's tasks
 
-* [ ] [Huddle] [1h] Support tickets
+* [x] [Huddle] [1h] Support tickets
 * [ ] [Cal Academy] [1h] Support tickets
 * [ ] [Prologis] [6h] Development
 
