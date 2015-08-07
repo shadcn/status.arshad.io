@@ -5,13 +5,11 @@ picture: https://avatars0.githubusercontent.com/u/124599?v=3&s=460
 
 # Currently working on
 
-* [ ] [Cal Academy] [1h] Support tickets
+* [ ] [Pinterest] [8h] Support tickets
 
 # Today's tasks
 
-* [x] [Huddle] [1h] Support tickets
-* [ ] [Cal Academy] [1h] Support tickets
-* [ ] [Prologis] [6h] Development
+* [ ] [Pinterest] [8h] Support tickets
 
 # [-] Current projects
 
