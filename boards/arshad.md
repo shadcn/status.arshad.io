@@ -5,11 +5,13 @@ picture: https://avatars0.githubusercontent.com/u/124599?v=3&s=460
 
 # Currently working on
 
-* [ ] [Pinterest] [8h] Support tickets
+* [ ] [Pinterest] [2h] Support tickets
 
 # Today's tasks
 
-* [ ] [Pinterest] [8h] Support tickets
+* [ ] [Pinterest] [2h] Support tickets
+* [ ] [Huddle] [1h] Support tickets
+* [ ] [Prologis] [5h] Development
 
 # [-] Current projects
 
