@@ -5,14 +5,14 @@ picture: https://avatars0.githubusercontent.com/u/124599?v=3&s=460
 
 # Currently working on
 
-* [ ] [Prologis] [8h] Featured Properties
+* [ ] [BAVC] [8h] Tickets on TW
 
 # Today's tasks
 
-* [ ] [Prologis] [8h] Featured Properties
+* [ ] [BAVC] [8h] Tickets on TW
 
 # [-] Current projects
 
 * [Prologis] Development with @andrea.
-* [SCC] Support with @andrea.
+* [BAVC] Development with @andrea.
 * [Nexant] Support with @andrea.
